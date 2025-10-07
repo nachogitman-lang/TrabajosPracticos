@@ -1,0 +1,18 @@
+h1 {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 55px;
+    color: #5180a0;
+}
+
+h2 {
+    font-family: Arial Black, Arial, sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    color: #e0cfc0; /* Un tono más suave que rgb(255, 217, 199) */
+}
+
+p {
+    font-family: Arial, Gadget, sans-serif;
+    font-size: 15px;
+    color: lightgray;
+}
