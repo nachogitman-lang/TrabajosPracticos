@@ -1,0 +1,54 @@
+.Background {
+    background-color: rgb(255, 230, 0);
+}
+fieldset {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: none;
+}
+
+fieldset img {
+    float: left;
+    width: auto;
+    height: auto;
+    max-width: auto;
+    margin: 15px;
+}
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: Impact, Charcoal, sans-serif black;
+    
+}
+h2 {
+    color: white;
+    font-family: Arial Black, Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+    border: red dashed 2px;
+}
+
+.title {        
+    text-align: center;
+    background-color: #cf5218;
+}
+
+.Subtitle {
+    text-align: left;
+    background-color: #cf5218;
+    
+}
+.primerDiseño {
+    border: none; 
+    background-color: rgb(172, 169, 40);
+}
+
+.buttons {
+    margin-left: 195px;
+}
+
+footer {
+    background-color: rgb(247, 171, 84);
+    text-align: center;
+}
