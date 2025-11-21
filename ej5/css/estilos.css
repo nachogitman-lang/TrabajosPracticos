@@ -10,11 +10,15 @@ h1{
     color: rgb(44, 78, 12);
     text-align: center;
     border-bottom: solid 3px black;
-    
 }
 h2{
     text-decoration: underline;
     padding-left: 5px;
+}
+#fondo{
+    background-color: rgba(130, 130, 30, 0.2);
+    border-radius: 15px;
+    padding: 8px;
 }
 span{
     font-weight: bold;
@@ -79,18 +83,15 @@ iframe{
     border-radius: 15px;
     padding: 5px;
     background-color: rgb(252, 247, 178);
-    margin-left: 55px;
 }
 #veterinarias{
     border: solid 3px violet;
     border-radius: 15px;
     padding: 5px;
     background-color: rgb(248, 192, 206);
-    margin-left: 55px;
 }
 img{
     border-radius: 35px;
-
 }
 footer{
     font-size: 18px;
@@ -111,12 +112,7 @@ footer{
 nav{
     text-align: center;
     background-color: aquamarine;
-    margin-inline-start: 50px;
-    margin-inline-end: 50px;
-    width: auto;
-}
-
-.centrado{
- margin-left:45px;
- color: rgb(94, 94, 94);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
 }
