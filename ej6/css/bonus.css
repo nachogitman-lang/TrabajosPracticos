@@ -1,0 +1,26 @@
+
+input {
+  border: none;
+  border-bottom: 2px solid #333;
+  padding: 5px;
+  margin: 5px;
+  outline: none;
+  font-size: 14px;
+}
+
+input:focus {
+  border-bottom: 2px solid #ff8800; 
+}
+
+button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #00f514;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(252, 2, 218);
+}
