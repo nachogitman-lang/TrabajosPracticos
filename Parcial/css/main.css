@@ -154,13 +154,6 @@ h6 {
   font-size: 1rem;
 }
 
-.nuevoform input[type=text]#mensaje {
-  width: auto;
-  padding: 20px;
-  font-size: 1.2rem;
-  border: 2px solid #ccc;
-  border-radius: 8px;
-}
 .nuevoform fieldset {
   display: flex;
   flex-direction: column;
@@ -181,4 +174,11 @@ h6 {
   font-size: 1.2rem;
   margin-top: 20px;
   background-color: rgba(32, 6, 104, 0.6);
+}
+
+textarea {
+  background-color: #94d0df;
+  width: auto;
+  height: 150px;
+  text-align: start;
 }
