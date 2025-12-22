@@ -161,6 +161,13 @@ h6 {
   border: 2px solid #ccc;
   border-radius: 8px;
 }
+.nuevoform fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 650px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
 
 .ajuste {
   margin-bottom: 15px;

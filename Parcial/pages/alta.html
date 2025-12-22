@@ -22,9 +22,11 @@
 <div class="centered">
 
     <form class="nuevoform" id="formulario" novalidate>
-        <label for="nombre">Nombre del jugete:</label>
-        <input type="text" id="nombre" name="nombre" required>
-        
+        <fieldset>
+
+            <label for="nombre">Nombre del jugete:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
         <label for="descripcion">Descripción corta:</label>
         <input type="text" id="descripcion" name="descripcion" required>
         
@@ -39,8 +41,8 @@
         <input type="text" id="descripcion_larga" name="descripcion_larga" required>
         <label for="envio">envio sin cargo </label>
         <select name="confirmacion" id="confirmacion">
-        <option value="si">Sí</option>
-        <option value="no">No</option>
+            <option value="si">Sí</option>
+            <option value="no">No</option>
         </select>
         <label for="edad_desde">edad desde:</label>
         <input type="number" id="edad_desde" name="edad_desde" required min="0">
@@ -48,9 +50,10 @@
         <input type="number" id="edad_hasta" name="edad_hasta" required min="0">
         <label for="foto"> foto</label>
         <input type="file" id="foto" name="foto" required>
-
+        
         <button type="submit">Agregar Jugete</button>
     </form>
+</fieldset>
     
 </div>
 

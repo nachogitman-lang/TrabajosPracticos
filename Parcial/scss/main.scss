@@ -1,5 +1,4 @@
 @import "variables";
-@import "nosotros";
 
 
 button:hover {
@@ -188,7 +187,16 @@ h6 {
     border: 2px solid #ccc;
     border-radius: 8px;
   }
+  fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;             
+    width: 650px;
+    background-color: $principalcolor;
+  }
+
 }
+
 
 .ajuste{
     margin-bottom: 15px;
@@ -204,3 +212,7 @@ h6 {
     background-color: $secondcolor;
 
 }
+
+
+
+
