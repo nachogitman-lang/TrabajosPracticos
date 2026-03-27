@@ -20,9 +20,6 @@ app.get('/contact', (req, res) => {
 });
 
 
-app.get('/foa', (req, res) => {
-    throw new Error("Fallo interno simulado"); 
-});
 
 
 app.use((req, res) => {
@@ -32,6 +29,9 @@ app.use((req, res) => {
     });
 });
 
+app.get('/foa', (req, res) => {
+    throw new Error("Fallo interno simulado"); 
+});
 
 app.use((err, req, res, next) => {
     console.error(err.stack); 
